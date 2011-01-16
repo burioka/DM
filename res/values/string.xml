@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="target">本日の目標はありません</string>
+    <string name="app_name">DreamManeger</string>
+    <string name="edit">編集</string>
+    <string name="editTitle">目標を入力_（開発中）</string>
+    <string name="StartDate">目標開始日入力</string>
+    <string name="EndDate">目標終了日入力</string>
+    <string name="minyu">↓目標内容を入力</string>
+    <string name="Post">登録</string>
+    <string name="empty">入力が不完全です。</string>
+    <string name="compare">開始日と終了日を確認してください。</string>
+    <string name="over">内容の文字数は10文字以内で入力してください。</string>
+    <string name="GantRep">スケジュールを表示</string>
+    <string name="menu1">１．入力開始ボタンを押す</string>
+    <string name="menu2">２．日付ダイアログで開始日を入力後SETを押す</string>
+    <string name="menu3">３．続けて終了日を入力後SETを押す</string>
+    <string name="menu4">４．テキストボックスに内容を入れて登録ボタンを押す</string>
+</resources>

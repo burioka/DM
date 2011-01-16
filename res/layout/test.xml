@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical">
+    	<TextView  
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text="@string/editTitle"
+		android:textSize="8px"/> 
+  		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:orientation="horizontal"
+   		android:gravity="top">
+	 		<TextView  
+	  		android:id="@+id/StrSdate"
+		    android:layout_width="150px" 
+		    android:layout_height="fill_parent" 
+		    android:text="    /  /  "
+		    android:textSize="26px"/> 
+		    <Button  
+			android:id="@+id/BtnSDate"
+		    android:text="@string/StartDate" 
+		    android:textStyle="bold" 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="fill_parent" 
+		    android:gravity="right"
+		    android:textSize="16sp"/>
+	    </LinearLayout>
+ 	    <TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="～"
+	    android:textSize="15px"/> 
+	   	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:orientation="horizontal"
+   		android:gravity="top">
+		    <TextView 
+		    android:id="@+id/StrEdate" 
+		    android:layout_width="150px"  
+		    android:layout_height="fill_parent" 
+		    android:text="    /  /  "
+		    android:textSize="26px"/> 
+		    <Button  
+			android:id="@+id/BtnEDate"
+		    android:text="@string/EndDate" 
+		    android:textStyle="bold" 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="fill_parent" 
+		    android:gravity="right"
+		    android:textSize="16sp"/>
+	    </LinearLayout>
+	    <TextView 
+	    android:id="@+id/StrTgt" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/minyu"
+	    android:textSize="15px"/> 
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+			<EditText android:text="" 
+			android:id="@+id/EditText01" 
+			android:enabled="true" 
+			android:layout_height="wrap_content" 
+			android:layout_gravity="left" 
+			android:layout_width="200px"/>
+			<Button android:text="@string/Post" 
+			android:id="@+id/BtnPst" 
+			android:layout_width="120px" 
+			android:layout_height="wrap_content"
+			/>
+		</LinearLayout>
+		<Button android:text="@string/GantRep" 
+		android:id="@+id/GantRep" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		/>
+</LinearLayout>

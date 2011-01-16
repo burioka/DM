@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/widget31"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:background="@color/wsakura"
+android:clickable="true">
+<TextView
+android:id="@+id/target"
+android:layout_width="240px"
+android:text="@string/target"
+android:textSize="26sp" android:background="@color/wsakura" android:textColor="@color/Wbrown2" android:layout_height="222px">
+</TextView>
+<Button
+android:id="@+id/button1"
+android:layout_width="135px"
+android:layout_height="69px"
+android:text="@string/edit"
+android:textSize="20sp"
+android:textColor="@color/black" android:background="@color/Wbrown3" android:layout_gravity="top|right">
+</Button>
+</LinearLayout>

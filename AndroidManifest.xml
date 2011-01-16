@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="android.buriokande"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="true">
+		<receiver android:name=".DMWidgetProvider" android:label="@string/app_name"  >
+			<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+			</intent-filter>
+			<meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget" />
+		</receiver>
+		<receiver android:name="DMReceiver">
+			<intent-filter>
+				<action android:name="android.buriokande.ViewAction.VIEW" />
+			</intent-filter>
+		</receiver>
+	    <service android:name="DMWidgetService">
+		    <intent-filter>
+		    	<action android:name="android.buriokande.ACTION_BTNCLICK"></action>
+			</intent-filter>
+		</service>
+		<activity android:name="testActivity"/>
+		<activity android:name="DMGantMake"/>
+	</application>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+</manifest> 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="wsakura">#fef4f4</color>
+	<color name="wred">#d7003a</color>
+	<color name="wgreen">#007b43</color>
+	<color name="wyellow">#ffdb4f</color>
+	<color name="wgrey">#949495</color>
+	<color name="wpurple">#460e44</color>
+	<color name="wblue">#38a1db</color>
+	<color name="Wbrown1">#a16d5d</color>
+	<color name="Wbrown2">#432f2f</color>
+	<color name="Wbrown3">#d3cbc6</color>
+	<color name="black">#000000</color>
+	<color name="white">#ffffff</color>
+</resources>

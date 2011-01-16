@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:background="@color/wsakura"
+  android:baselineAligned="false"
+  android:clipToPadding="true"
+  android:padding="2px"
+  android:layout_margin="10px"
+>
+  <TableRow>
+	<TextView
+	android:text="android"	
+	android:background="@color/wsakura"
+	android:layout_margin="2px"
+	android:clickable="true"/>
+	<TextView
+	android:text="android"	
+	android:background="@color/Wbrown1"
+	android:layout_margin="2px"/>
+	<TextView
+	android:text="android"
+	android:background="@color/Wbrown1"
+	android:layout_margin="2px"
+	/>
+	<CheckBox
+	android:layout_width="20px"
+	android:layout_height="20px">
+	</CheckBox>
+  </TableRow>
+    <TableRow>
+	<TextView
+	android:text="android"	
+	android:background="@color/Wbrown1"/>
+	<TextView
+	android:text="android"	
+	android:background="@color/Wbrown1"/>
+	<TextView
+	android:text="android"
+	/>
+	<CheckBox
+	android:layout_width="20px"
+	android:layout_height="20px">
+	</CheckBox>
+  </TableRow>
+  
+</TableLayout>
