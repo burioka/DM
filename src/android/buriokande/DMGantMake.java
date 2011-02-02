@@ -25,7 +25,7 @@ public class DMGantMake extends Activity{
     private final int FP = ViewGroup.LayoutParams.FILL_PARENT; 
     private CheckBox[] checkBox ;
 	public void onCreate(Bundle savedInstanceState){
-		android.os.Debug.waitForDebugger(); 
+		//android.os.Debug.waitForDebugger(); 
 		super.onCreate(savedInstanceState);
         //setContentView(R.layout.gant);
 		final Context con = getApplicationContext();
@@ -44,8 +44,6 @@ public class DMGantMake extends Activity{
 	}
 	public void Mklayout(Context con,GantData[] Gant ,Integer[][] Xaxis){
 		TableLayout tableLayout = new TableLayout(con);
-		//要素数を把握
-        final Integer i_max = Gant.length;  
 		tableLayout.setColumnStretchable(0, true); 
 		setContentView(tableLayout);
 		
@@ -216,7 +214,13 @@ public class DMGantMake extends Activity{
 	}
 	private TableRow MkDelBtn(Context con, GantData[] gant){
 		Button Btn1 = new Button(con);
-		final int  i_max = gant.length;
+		int iw_max = 0;
+		if (gant == null){
+			 
+		}else{
+			iw_max = gant.length;
+		}
+		final int  i_max = iw_max;
 		TableRow tablerow = new TableRow(con);
 		Btn1.setText("削除");
 		TableRow.LayoutParams rowLayout2 = new TableRow.LayoutParams();

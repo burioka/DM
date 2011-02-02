@@ -34,7 +34,9 @@ class DMDBHelper extends SQLiteOpenHelper {
 		}
 	}
 	@Override
+	//TODO:アップデート時にＤＢファイルの削除
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+		
 	}
 	
 }
